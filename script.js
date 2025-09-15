@@ -9,7 +9,7 @@ let isVibrating = false;
 let isRunning = false; // This flag controls the main loop
 
 // The threshold for detecting a "loud" sound (like an inhale or exhale)
-const amplitudeThreshold = 180;
+const amplitudeThreshold = 20;
 
 startButton.addEventListener('click', async () => {
     // Check for Vibration API support
